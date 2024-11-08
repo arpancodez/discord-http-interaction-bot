@@ -35,7 +35,7 @@ async def interactions(request: Request):
     return {
         "type": InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
         "data": {
-            "content": "Hello Buddy, This is a by default message for any unrecognized interaction.",
+            "content": "unrecognized interaction",
             "flags": InteractionResponseFlags.EPHEMERAL,
         },
     }
